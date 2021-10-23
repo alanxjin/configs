@@ -1,8 +1,8 @@
 ZSH_THEME="af-magic"
 
 plugins=(
-  git,
-  vi-mode,
+  git
+  vi-mode
   zsh-autosuggestions
 )
 
