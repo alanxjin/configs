@@ -1,7 +1,6 @@
 syntax on
 set number
 set relativenumber
-set ruler
 set incsearch
 set scrolloff=8
 set signcolumn=yes
@@ -18,9 +17,12 @@ set expandtab
 " disable beep and flash
 set noeb vb t_vb=
 
-" vim-plug. :PlugInstall
-call plug#begin('~/.vim/plugged')
+" vim-plug. :PlugInstall. path => where the plugins will be stored
+call plug#begin('~/.config/nvim/plugged')
 Plug 'arcticicestudio/nord-vim'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 colorscheme nord
+test
+
