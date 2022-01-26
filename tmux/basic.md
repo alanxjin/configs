@@ -1,6 +1,7 @@
 https://tmuxcheatsheet.com/
+## Remapped some keys
+Check the .tmux.conf
 
-## Remapped C-b to C-a as the prefix key
 ## Load `.tmux.conf` 
 * Close all tmux sessions
 * or `tmux source ~/.tmux.conf`
@@ -13,5 +14,15 @@ https://tmuxcheatsheet.com/
 * List all sessions: `tmux ls`
 * Attach a session: `tmux a`
    * or with name: `tmux a -t 0`
-* 
+* Detach a session: `Prefix + d`
+* Rename a session: `Prefix + $`
+* Preview sessions: `Prefix + s`
+* Preview windows + sessions: `Prefix + w`
+
+
+## Window
+
+## Pane
+* Move between panes: `Prefix + [hjkl]`
+* Resize a pane: `Prefix + C-[hjkl]`
 
